@@ -67,3 +67,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Attribution
 
 This CLI tool is based on the original Quark implementation from the [Sciter JS SDK](https://gitlab.com/sciter-engine/sciter-js-sdk/-/tree/main/quark).
+
+## License
+
+This project is licensed under the BSD3 License.
