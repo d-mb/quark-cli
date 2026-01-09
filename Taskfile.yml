@@ -1,0 +1,17 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  ENTRYPOINT: "src/main.htm"
+  PROJECT_FILE: "project.json"
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+  build:
+    desc: "Compile the Quark CLI"
+    cmds:
+      - scapp.exe {{.ENTRYPOINT}} --config {{.PROJECT_FILE}}

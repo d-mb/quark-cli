@@ -1,0 +1,44 @@
+html {
+  width: 860dip;
+  height: 480dip;
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  font: system;
+  background: window;
+  color: windowtext;
+  flow: vertical;
+}
+
+header {
+  padding: 8dip 10dip;
+  border-bottom: 1dip solid color(windowtext blend(window 70%));
+  flow: vertical;
+  gap: 6dip;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#status {
+  opacity: 0.8;
+}
+
+#progress {
+  width: *;
+  height: 6dip;
+}
+
+#log {
+  padding: 8dip 10dip;
+  size: *;
+  overflow: scroll-indicator;
+  font: system;
+}
+
+#log > text.stderr { color: red; }
+#log > text.result { color: green; }
+#log > text.initial { opacity: 0.7; }

@@ -1,0 +1,16 @@
+{
+    "id": "9d99af62-b92f-4129-9c09-d914a2389922",
+    "name": "Quark CLI",
+    "exe": "quark-cli",
+    "logo": "icon.svg",
+    "resources": "src",
+    "productName": "Quark CLI",
+    "productVersion": "1.0.0",
+    "productDescription": "A command-line interface for compiling Sciter applications with Quark.",
+    "productCopyright": "",
+    "productCompany": "",
+    "targets": [
+        "winX64"
+    ],
+    "out": "bin"
+}
