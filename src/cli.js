@@ -235,7 +235,8 @@ document.ready = async function () {
     logger.add(e?.message ? e.message : String(e), "stderr");
     logger.status("Failed", 100);
   } finally {
-    // Allow last UI paint, then quit.
-    document.timer(10000, () => Window.this.close());
+    if (flags.silent) {
+        document.post(() => Window.this.close());
+      }
   }
 };
