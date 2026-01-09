@@ -236,7 +236,7 @@ document.ready = async function () {
     logger.status("Failed", 100);
   } finally {
     if (flags.silent) {
-        document.post(() => Window.this.close());
-      }
+      document.post(() => Window.this.close());
+    }
   }
 };
